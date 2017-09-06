@@ -1,0 +1,153 @@
+body {
+    background-color: white;
+}
+
+body, html {
+	height: 75%;
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 75px;
+}
+
+.hero-text h2 {
+	/*text-align: center;*/
+	color: #333;
+	white-space: nowrap;
+}
+
+.main-nav {
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.main-nav ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	
+}
+
+.main-nav li {
+	float:left;
+	width: 25%;
+}
+
+.main-nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 64px;
+	text-decoration: none;
+}
+
+.main-nav li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.hero-image {
+	background-image: url("IMG_3803.jpg"); 
+	height: 200%;
+	max-width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140px;
+}
+
+.mylife {
+	text-align: left;
+	color: white;
+	background-color: #333;
+	padding-top: 85px;
+	padding-left: 50px;
+	padding-bottom: 85px;
+	height: 500px;
+}
+
+.about-image {
+	width: 200px;
+	height: 200px;
+	padding-right: 15px;
+	float: left;
+}
+
+.mylife-line {
+	color: grey;
+}
+
+.mypeople {
+	text-align: left;
+	color: white;
+	background-color: grey;
+	padding-top: 85px;
+	padding-left: 50px;
+	padding-bottom: 85px;
+	height: 500px;
+}
+
+.mypeople-line {
+	color: #008080;
+}
+
+.mypassions {
+	text-align: left;
+	color: white;
+	background-color: #008080;
+	padding-top: 85px;
+	padding-left: 50px;
+	padding-bottom: 85px;
+	height: 500px;
+}
+
+.mypassions-line {
+	color: #333;
+}
+
+.link-footer a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+.link-footer a:hover {
+	color: grey;
+}
+
+.social-footer {
+	padding: 50px;
+	}
+
+.social-footer a {
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+	font-size: 24px;
+}
+
+.social-footer a:hover {
+	color: #008080;
+}
+
+.copyright-footer {
+	font-size: 10px;
+}

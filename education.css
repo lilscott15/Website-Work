@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+}
+
+body, html {
+	height: 75%;
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 75px;
+}
+
+.main-nav {
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.main-nav ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	
+}
+
+.main-nav li {
+	float:left;
+	width: 25%;
+}
+
+.main-nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 64px;
+	text-decoration: none;
+}
+
+.main-nav li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.hero-image {
+	background-image: url("IMG_0926.jpg"); 
+	height: 200%;
+	max-width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140px;
+    color: #333;
+}
+
+.activities-title {
+	text-align: center;
+	color: #008080;
+	font-size: 30px;
+	background-color: #333;
+	padding: 50px;
+}
+
+.columns-container {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	vertical-align: top;
+	height: 325px;
+	/*padding: 10px;*/
+}
+
+.column {
+	display: table-cell;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	height: 325px;
+	text-align: center;
+}
+
+.column img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.more-columns-container {
+	display: table;
+	width: 100%;
+	/*background-color: light grey;*/
+	table-layout: fixed;
+	vertical-align: top;
+	height: 325px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+
+}
+
+.more-columns {
+	display: table-cell;
+	background-color: grey;
+	margin: 0px;
+	color: #008080;
+	padding: 10px;
+	height: 325px;
+	text-align: center;
+}
+
+.more-columns p {
+	color: #333;
+}
+
+.more-columns h1 {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.link-footer a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+.link-footer a:hover {
+	color: grey;
+}
+
+.social-footer {
+	padding: 50px;
+	}
+
+.social-footer a {
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+	font-size: 24px;
+}
+
+.social-footer a:hover {
+	color: #008080;
+}
+
+.copyright-footer {
+	font-size: 10px;
+}
